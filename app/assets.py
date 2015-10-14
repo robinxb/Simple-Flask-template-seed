@@ -3,7 +3,9 @@
 import os
 from flask.ext.assets import Bundle, Environment
 
-js = Bundle('libs/jquery/dist/jquery.min.js')
+js = Bundle(\
+        'libs/jquery/dist/jquery.min.js',\
+        )
 css = Bundle('css/style.css')
 
 assets = Environment()
